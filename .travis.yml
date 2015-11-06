@@ -16,3 +16,4 @@ before_install:
 branches:
   only:
     - master
+    - coverage-test
