@@ -1,8 +1,7 @@
 export default function createUseScroll(updateScroll, start, stop) {
-  return function (createHistory) {
+  return function (history) {
     return function (options) {
-      const history = createHistory(options)
-
+  
       let numListeners = 0
 
       function checkStart() {
